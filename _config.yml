@@ -97,13 +97,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: hexo-theme-yilia
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/yeyuezhishui/yeyuezhishui.github.io
+  repository: git@github.com:yeyuezhishui/yeyuezhishui.github.io.git
   branch: master
 
 # 搜索
@@ -113,21 +113,21 @@ search:
   format: html
   limit: 10000
 
-# jsonContent:
-#     meta: false
-#     pages: false
-#     posts:
-#       title: true
-#       date: true
-#       path: true
-#       text: false
-#       raw: false
-#       content: false
-#       slug: false
-#       updated: false
-#       comments: false
-#       link: false
-#       permalink: false
-#       excerpt: false
-#       categories: false
-#       tags: true
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: false
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
