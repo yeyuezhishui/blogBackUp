@@ -3,6 +3,8 @@
 menu:
   主页: /
   随笔: /tags/随笔/
+  周记: /tags/周记/
+  篮球: /tags/篮球/
 
 # SubNav
 subnav:
@@ -65,7 +67,7 @@ top: true
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /assets/img/w6.ico
+favicon: https://cdn.jsdelivr.net/gh/yeyuezhishui/image-22blog@main/w6.6y8ah8b78ik0.webp
 
 #你的头像url
 avatar: https://cdn.jsdelivr.net/gh/yeyuezhishui/image-22blog@main/IMG_1753(20220209-151938).r3hyw6gricg.webp
@@ -116,7 +118,7 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
+  #friends: '友链'
   aboutme: '关于我'
 
 # friends:
@@ -127,4 +129,4 @@ smart_menu:
 #   友情链接5: http://localhost:4000/
 #   友情链接6: http://localhost:4000/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 无问西东
